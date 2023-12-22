@@ -1,5 +1,5 @@
-const tutorial = require('./tutorial');
+import os from "os";
 
-console.log(tutorial.sum(1,1));
-console.log(tutorial.PI);
-console.log(new tutorial.SomeMathObj());
+console.log(os.hostname());
+console.log(os.freemem());
+console.log(os.totalmem());
